@@ -14,6 +14,7 @@ for (item of buttons) {
         }
         else if (buttonText == 'D') {
             screen1.value = screen1.value.slice(0, - 1);
+            screenValue = screen1.value;
         }
         else if (buttonText == 'C') {
             screenValue = "";
