@@ -1,0 +1,124 @@
+body, html{
+    font-family: 'Kanit', sans-serif;
+}
+
+.calculator{
+    margin-left: auto;
+    margin-right: auto;
+    width: 285px;
+    height: 580px;
+    border: 1px solid #2b2b2b;
+    border-radius: 15px;
+    padding-top: 20px;
+    background-color: #2b2b2b;
+    box-shadow: 1px 1px 3px #191919;
+}
+.text{
+    text-align: center;
+    font-size: 12pt;
+    color: #b1e1ca;
+    margin-left: 38px;
+
+}
+#spbtn{
+    margin-left: 0px;
+    background-color: #b1e1ca;
+}
+#spbtn:hover{
+    background-color: #CFECDE;
+}
+
+.button{
+    background-color: #666666;
+    color: #ffffff;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: #B8B8B8;
+}
+
+.dark-mode{
+    margin-right: 10px;
+    float: right;
+    padding: 5px 7px;
+    border: 1px;
+    border-radius: 70%;
+    background-color: #2b2b2b;
+    font-size: 12pt;
+    color: #b1e1ca;
+    font-weight: bold;
+}
+.dark-mode:hover{
+    background-color: #666666;
+}
+.disdiv{
+    width:268px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    box-shadow: 1px 1px 3px #3d3d3d;
+}
+.colorlight{
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+.colordark{
+    border: 1px solid #3b3b3b;
+    border-radius: 12px;
+    background-color: #3b3b3b;
+}
+input[type=text]{
+    width: 100%;
+    display: block;
+    border:1px;
+    background: none;
+    text-align: right;
+}
+#upper-dis{
+    padding: 2px 12px;
+    font-size: 10pt;
+    color: #b1e1ca;
+    font-family: 'Exo', sans-serif;
+}
+
+#lower-dis{
+    padding: 12px 20px;
+    font-size: 25pt;
+    color: #b1e1ca;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    padding: 15px;
+    border-spacing: 11px;
+    margin-left: 0px;
+    table-layout: fixed;
+}
+td{
+    border: 1px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 3px #191919;
+}
+p{
+    text-align: center;
+    font-size: 8pt;
+    color: #b1e1ca;
+    padding-bottom: 4px;
+}
+button{
+    text-align: center;
+    background: none;
+    padding: 17px;
+    border: none;
+    border-radius: 100%;
+    margin-left: 4px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+}
