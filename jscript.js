@@ -23,6 +23,9 @@ for (item of buttons) {
         }
         else if (buttonText == '=') {
             screen2.value = eval(screenValue);
+            if (screenValue == "") {
+            screen2.value = "0";
+        }
         }
         else {
             screenValue += buttonText;
