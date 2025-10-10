@@ -11,7 +11,7 @@ A simple calculator built with HTML, CSS, and vanilla JavaScript.
 - Theme toggle (dark and light modes)
 
  <p align="center">
-  <img src="assets/mode-toggle-demo.gif" alt="Dark/Light Mode Toggle" width="600">
+  <img src="https://github.com/psykiiib/calc/tree/main/assets/mode-toggle-demo.gif" alt="Dark/Light Mode Toggle" width="600">
 </p>
 
 - Full keyboard support
