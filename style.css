@@ -64,17 +64,21 @@ img{
     padding-top: 20px;
     padding-bottom: 4px;
     box-shadow: 1px 1px 3px #3d3d3d;
+    transition: background-color 0.3s ease, border 0.3s ease; /* Added for smooth theme change */
 }
-#colorlight{
-    border: 1px solid #ffffff;
+
+/* MODIFIED: Changed ID selectors to Class selectors for theme toggling */
+.light{
+    border: 1px solid #dddddd;
     border-radius: 12px;
     background-color: #ffffff;
 }
-#colordark{
+.dark{
     border: 1px solid #3b3b3b;
     border-radius: 12px;
     background-color: #3b3b3b;
 }
+
 input[type=text]{
     width: 100%;
     display: block;
@@ -125,4 +129,11 @@ button{
     color: #ffffff;
     font-weight: bold;
     font-family: 'Poiret One', cursive;
+    /* ADDED: For dynamic button press effect */
+    transition: transform 0.1s ease;
+}
+
+/* ADDED: Active state for a "press down" effect */
+button:active {
+    transform: scale(0.95);
 }
