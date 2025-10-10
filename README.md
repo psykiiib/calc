@@ -10,8 +10,13 @@ A simple calculator built with HTML, CSS, and vanilla JavaScript.
 - Standard arithmetic operations (+, -, *, /)
 - Theme toggle (dark and light modes)
 
+<<<<<<< HEAD
 <p align="center">
     <img src="mode-toggle-demo.gif" alt="Dark/Light Mode Toggle" width="600">
+=======
+ <p align="center">
+  <img src="https://github.com/psykiiib/calc/tree/main/assets/mode-toggle-demo.gif" alt="Dark/Light Mode Toggle" width="600">
+>>>>>>> 748632637be542cdeed7d476bc96850b12663ca3
 </p>
 
 - Full keyboard support
