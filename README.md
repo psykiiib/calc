@@ -10,7 +10,8 @@ A simple calculator built with HTML, CSS, and vanilla JavaScript.
 - Standard arithmetic operations (+, -, *, /)
 - Theme toggle (dark and light modes)
 
-- [Mode toggle Demo!](mode-toggle-demo.gif)
+  ![Mode toggle Demo](mode-troggle-demo.gif)
+
 
 - Full keyboard support
 - Error handling for invalid expressions
